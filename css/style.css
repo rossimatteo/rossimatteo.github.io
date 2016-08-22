@@ -31,6 +31,16 @@ a:hover {
 .sposta{
     border-top: -2000px !important;
     margin-top: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ptop{
+    padding-top: 0px !important;
+}
+
+.mbottom{
+    margin-bottom: 0px !important;
 }
 
 /* = Blocs
@@ -272,6 +282,9 @@ a:hover {
         display: block;
         margin: auto;
         max-width: 70%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     .hidelogomobile{
         display:none;
