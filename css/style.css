@@ -11,12 +11,14 @@ a:hover{text-decoration: none; cursor:pointer;}
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-   
 
+a:hover {
+    color: #03ff03 !important;
+}
 
 /* Globals type styling */
  h1, h2, h3, h4, h5, h6, p, label, .btn, a{
-	font-family:Montserrat;
+    font: Arial Rounded MT Bold;
 }
 
 
@@ -26,6 +28,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	max-width:1170px;
 }
 
+.sposta{
+    border-top: -2000px !important;
+    margin-top: auto;
+}
 
 /* = Blocs
 -------------------------------------------------------------- */
@@ -262,6 +268,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	float:right;
 }
 @media (min-width: 768px){
+    .hidelogomobile{
+        display:none;
+    }
 	.site-navigation{
 		position:absolute;
 		top:50%;
@@ -500,13 +509,13 @@ a[data-lightbox]:hover img{
 -------------------------------------------------------------- */
 
 .bgc-carmine-pink{
-	background-color:#F35342;
+	background-color:#E5E5E5;
 }
 .bgc-outer-space{
-	background-color:#47454B;
+	background-color:#E5E5E5;
 }
 .bgc-white{
-	background-color:#ffffff;
+	background-color:#E5E5E5;
 }
 .bgc-platinum{
 	background-color:#E5E5E5;
@@ -535,6 +544,10 @@ a[data-lightbox]:hover img{
 .icon-outer-space{
 	color:#47454B!important;
 	border-color:#47454B!important;
+}
+
+.borded{
+    border: 2px solid;
 }
 
 /* Bloc image backgrounds */
@@ -573,7 +586,7 @@ a[data-lightbox]:hover img{
   bottom: 10px;
 }
 #fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
+  background-color: #E5E5E5;
   border: none;
 }
 #fade-quote-carousel blockquote {
@@ -614,13 +627,15 @@ a[data-lightbox]:hover img{
 }
 @media (max-width: 767px)
 {
+    .hidelogocomputer{
+    display: none !important;
+    }
     .hidelogo{
     display: none !important;
     }
     .bloctour{
     width:100%;
     clear:both;
-    background: 50% 50% no-repeat;
     padding:0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
